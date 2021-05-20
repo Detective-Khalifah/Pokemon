@@ -144,6 +144,8 @@ public class MainActivity extends AppCompatActivity {
                     R.layout.list_item, new String[]{"name", "id", "candy"},
                     new int[]{R.id.name, R.id.id, R.id.candy});
             list_view.setAdapter(adapter);
+
+            // TODO: Adapt images too -- by loading dynamically!
         }
     }
 }
